@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      >
+      <FrameLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/frame_layout"
+
+
+          android:layout_weight="8"
+          />
+
+  </LinearLayout>
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:menu="@menu/bottom_nav_menu"
+        android:id="@+id/buttomNavigationView"
+        android:layout_alignParentBottom="true"
+        />
+</RelativeLayout>
+
+    <!--      <Button-->
+    <!--          android:id="@+id/Login"-->
+    <!--          android:layout_width="wrap_content"-->
+    <!--          android:layout_height="wrap_content"-->
+    <!--          android:text="@string/Login"-->
+    <!--          app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--          app:layout_constraintEnd_toEndOf="parent"-->
+    <!--          app:layout_constraintHorizontal_bias="0.685"-->
+    <!--          app:layout_constraintStart_toStartOf="parent"-->
+    <!--          app:layout_constraintTop_toTopOf="parent"-->
+    <!--          app:layout_constraintVertical_bias="0.514"-->
+    <!--          android:layout_weight="1"/>-->
+
+    <!--      <Button-->
+    <!--          android:id="@+id/Register"-->
+    <!--          android:layout_width="wrap_content"-->
+    <!--          android:layout_height="wrap_content"-->
+    <!--          android:text="@string/Register"-->
+    <!--          app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--          app:layout_constraintEnd_toStartOf="@+id/Login"-->
+    <!--          app:layout_constraintHorizontal_bias="0.604"-->
+    <!--          app:layout_constraintStart_toStartOf="parent"-->
+    <!--          app:layout_constraintTop_toTopOf="parent"-->
+    <!--          app:layout_constraintVertical_bias="0.514"-->
+    <!--          android:layout_weight="1"-->
+    <!--          />-->

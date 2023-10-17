@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    tools:context=".firstPage"
+    android:orientation="vertical"
+    >
+
+     <TextView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="Register AS"
+         android:textAlignment="center"
+         android:textSize="20dp"
+         android:textStyle="bold"></TextView>
+    <ImageView
+        android:id="@+id/imageUser"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/user2_icon"
+        android:layout_margin="10dp"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:id="@+id/userBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:text="User" />
+
+    <ImageView
+        android:id="@+id/expertImg"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="10dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/expert_icon" />
+
+    <Button
+        android:id="@+id/expertBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Expert" />
+</LinearLayout>

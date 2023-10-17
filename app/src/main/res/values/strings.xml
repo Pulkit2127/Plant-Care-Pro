@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">My Application</string>
+    <string name="Login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="Registration">Registration</string>
+    <string name="Register">Register</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Name">Name\n</string>
+    <string name="aboutus">Welcome to Demo App - Your Personal Plant Health Assistant!
+
+At Demo App, we\'re passionate about bringing innovation to the world of plant care. Our mission is to empower plant enthusiasts, gardeners, and farmers with cutting-edge technology that makes plant health monitoring and disease detection easier and more accessible than ever before.</string>
+    <string name="aboutus_vision">Our Vision
+
+We envision a world where every plant lover can nurture their green companions with confidence, armed with the knowledge and tools to keep them thriving. We believe in sustainable agriculture, healthy gardens, and beautiful houseplants, and we\'re committed to helping you achieve those goals.</string>
+    <string name="aboutus_technology">Our app utilizes state-of-the-art artificial intelligence and machine learning algorithms to analyze plant photos and diagnose potential diseases with remarkable accuracy. With an impressive 80% or higher success rate, you can trust our app to provide reliable insights into your plant\'s health.</string>
+    <string name="aboutus_joinus">Whether you\'re a seasoned horticulturist or just starting your plant journey, Demo App is here to support you every step of the way. Together, we can nurture healthier plants and create a greener, more vibrant world.</string>
+    <string name="diseases">At Dem0 App, we take pride in our advanced disease identification system, which covers a wide range of plant diseases, including fungal, bacterial, viral, and more. We understand the importance of timely and accurate diagnosis to ensure the health and vitality of your plants</string>
+    <string name="diseases_library"> Our app boasts an extensive library of plant diseases, constantly updated with the latest research and information. We cover a vast array of diseases affecting various plant species, ensuring you can identify issues across your entire garden or collection.</string>
+    <string name="diseases_photo">To identify diseases, simply take a clear photo of the affected plant and upload it to our app. Our powerful AI and machine learning algorithms analyze the image, detecting visible symptoms such as discoloration, lesions, spots, and more.</string>
+</resources>

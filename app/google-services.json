@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1029193104843",
+    "project_id": "pythontech-b5464",
+    "storage_bucket": "pythontech-b5464.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1029193104843:android:fa872d050b4ee1c4c40a4e",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOQbMQT3bZHxoDA9WTqO4h1MVzPVeunDs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

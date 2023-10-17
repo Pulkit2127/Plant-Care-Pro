@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#E7FAF4">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp">
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="10dp"
+            app:srcCompat="@drawable/plant1" />
+
+        <TextView
+            android:id = "@+id/res1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:text="1) Leaf Leach"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:textColor="#188307"
+            android:textStyle="bold"
+            >
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/res2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:text="2) Leaf Leach"
+            android:textAlignment="center"
+            android:textColor="#188307"
+            android:textSize="30dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/res3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:text="3) Leaf Leach"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:textColor="#188307"
+            android:textStyle="bold"
+            >
+
+        </TextView>
+
+
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your theme here -->
+    </style>
+
+    <!-- Custom theme without the status bar -->
+    <style name="AppTheme.NoStatusBar">
+        <item name="android:windowFullscreen">true</item>
+        <!-- You can customize other attributes here if needed -->
+    </style>
+    <style name="AppTheme.AppStarting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher</item>
+        <item name="postSplashScreenTheme">@style/Theme.SplashScreen</item>
+    </style>
+</resources>

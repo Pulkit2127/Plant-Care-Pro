@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/home_icon"
+        android:id="@+id/home"
+        android:iconTint="#0EA772"
+        android:title="Home" />
+    <item
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/baseline_settings_24"
+        android:id="@+id/chating"
+        android:title="chat" />
+    <item
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/camera_icon"
+        android:id="@+id/camera"
+        android:title="camera" />
+</menu>
